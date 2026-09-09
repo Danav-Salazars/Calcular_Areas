@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #fafafa;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 380px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.ayuda {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+select,
+input,
+button {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #800020;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+input:disabled {
+  background: #F3E6D5;
+  color: #999;
+  cursor: not-allowed;
+}
+
+button {
+  background: #db2777;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+button:hover {
+  background: #be185d;
+}
+
+.resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #db2777;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.botones button {
+  flex: none;
+  padding: 10px 24px;
+}
+
+button.secundario {
+  background: white !important;
+  color: #db2777;
+  border: 1px solid #db2777;
+}
+
+button.secundario:hover {
+  background: #fdf2f8 !important;
+}
